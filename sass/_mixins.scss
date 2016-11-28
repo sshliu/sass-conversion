@@ -1,0 +1,37 @@
+@mixin bgwhite() {
+    background-color: $color-white;
+}
+@mixin bglightblue() {
+    background-color: $color-lightblue;
+}
+@mixin width600px() {
+    width: 600px;
+    margin: 0 auto;
+}
+@mixin column2() {
+    width: 50%;
+    float: left;
+}
+@mixin column3() {
+    width: 30%;
+    margin-left: 5%;
+    float: left;
+}
+@mixin column4() {
+    width: 22%;
+    margin-left: 4%;
+    float: left;
+}
+@mixin mediaspan() {
+    float: none;
+    letter-spacing: 0.25rem;
+    font-size: 3.998rem;
+    text-align: left;
+}
+@mixin falg() {
+    display: inline;
+    vertical-align: baseline;
+    float: none;
+    font-size: 4rem;
+    line-height: 6.3968rem;
+}
